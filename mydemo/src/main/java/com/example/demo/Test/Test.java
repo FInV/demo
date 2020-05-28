@@ -22,11 +22,13 @@ public class Test {
     Animal animal3 = new Animal("3", "袋鼠");
     Animal animal4 = new Animal("3", "袋鼠");
     Animal animal5 = new Animal("4", "狗");
+    Animal animal6 = new Animal("5", "老虎");
     animalList.add(animal2);
     animalList.add(animal1);
     animalList.add(animal3);
     animalList.add(animal4);
     animalList.add(animal5);
+    animalList.add(animal6);
     //去掉ID为4的实体
     animalList.removeIf(s -> s.getId().equals("4"));
     System.out.println("animalList = " + animalList);
