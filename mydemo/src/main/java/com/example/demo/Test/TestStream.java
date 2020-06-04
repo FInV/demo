@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * @author xuhuan
  * @date 2020/05/26
  */
-public class Test {
+public class TestStream {
 
 
   public static void main(String[] args) {
@@ -87,8 +87,8 @@ public class Test {
 
     // 排序代码如下
     List<Map<String, Object>> collect = list.stream()
-        .sorted(Comparator.comparing(Test::comparingByName)
-            .thenComparing(Comparator.comparing(Test::comparingByAge).reversed()))
+        .sorted(Comparator.comparing(TestStream::comparingByName)
+            .thenComparing(Comparator.comparing(TestStream::comparingByAge).reversed()))
         .collect(Collectors.toList());
 
 
