@@ -1,4 +1,4 @@
-package com.example.demo.Test;
+package com.example.demo.Test.algorithm;
 
 import java.util.Arrays;
 
