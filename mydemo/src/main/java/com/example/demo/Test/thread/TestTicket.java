@@ -8,8 +8,8 @@ public class TestTicket {
     Ticket t3 = new Ticket();
 
     t1.setName("t1窗口");
-    t2.setName("t1窗口");
-    t3.setName("t1窗口");
+    t2.setName("t2窗口");
+    t3.setName("t3窗口");
 
     t1.start();
     t2.start();

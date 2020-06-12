@@ -8,8 +8,8 @@ package com.example.demo.Test.thread;
 class  Ticket extends  Thread{
   static int ticket =100;
 
-  public  void run(){
-    while(true){
+  public synchronized void run(){
+     while(true){
       if(ticket>0){
         System.out.println(Thread.currentThread().getName()+"售票，票号位：" + ticket--);
       }
