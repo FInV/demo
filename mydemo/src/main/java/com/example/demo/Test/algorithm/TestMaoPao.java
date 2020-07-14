@@ -10,7 +10,7 @@ public class TestMaoPao {
 
   public static void main(String[] args) {
     int a[] = {1, 22, 3, 41, 5, 6, 7};
-    bubbleSort1(a, 7);
+    bubbleSort1(a, a.length);
   }
 
   /**
